@@ -22,6 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         appearance.backgroundColor = .white
         appearance.titleTextAttributes = [.foregroundColor: UIColor.black]
         navVC.navigationBar.scrollEdgeAppearance = appearance
+        
         let coordinator = MainCoordinator()
         coordinator.nav = navVC
         
