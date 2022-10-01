@@ -13,6 +13,13 @@ class MainCoordinator: Coordinator {
     
     func eventOccurred(with type: EventType) {
         
+        switch type {
+        case .buttonTapped:
+            var vc: UIViewController & Coordinating = SecondViewController()
+            vc.coordinator = self
+            nav?.pushViewController(vc, animated: true)
+        }
+        
     }
     
     func start() {

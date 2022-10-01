@@ -6,3 +6,14 @@
 //
 
 import Foundation
+import UIKit
+
+class SecondViewController: UIViewController, Coordinating {
+    var coordinator: Coordinator?
+    
+    override func viewDidLoad() {
+        self.title = "Second Screen !!"
+        self.view.backgroundColor = .blue
+    
+    }
+}
