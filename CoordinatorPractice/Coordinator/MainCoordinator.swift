@@ -16,7 +16,7 @@ class MainCoordinator: Coordinator {
     }
     
     func start() {
-        var vc: UIViewController & Coordinating = ViewController()
+        var vc: UIViewController & Coordinating = FirstViewController()
         vc.coordinator = self
         nav?.setViewControllers([vc], animated: false)
     }

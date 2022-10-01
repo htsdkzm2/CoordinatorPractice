@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FirstViewController.swift
 //  CoordinatorPractice
 //
 //  Created by 林田和磨 on 2022/10/01.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, Coordinating {
+class FirstViewController: UIViewController, Coordinating {
     var coordinator: Coordinator?
     
 
