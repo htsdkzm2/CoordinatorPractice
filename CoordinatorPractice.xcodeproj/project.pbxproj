@@ -103,12 +103,10 @@
 		C624B34928E83E090041A24F /* CoordinatorPractice */ = {
 			isa = PBXGroup;
 			children = (
-				C624B37E28E83FB00041A24F /* SecondViewController.swift */,
+				C6D9532328E84ADC00AB95E9 /* Coordinator */,
+				C6D9532428E84AED00AB95E9 /* VC */,
 				C624B34A28E83E090041A24F /* AppDelegate.swift */,
-				C624B37A28E83EBD0041A24F /* Coordinator.swift */,
 				C624B34C28E83E090041A24F /* SceneDelegate.swift */,
-				C624B34E28E83E090041A24F /* ViewController.swift */,
-				C624B37C28E83EE00041A24F /* MainCoordinator.swift */,
 				C624B35328E83E0A0041A24F /* Assets.xcassets */,
 				C624B35528E83E0A0041A24F /* LaunchScreen.storyboard */,
 				C624B35828E83E0A0041A24F /* Info.plist */,
@@ -131,6 +129,24 @@
 				C624B36D28E83E0B0041A24F /* CoordinatorPracticeUITestsLaunchTests.swift */,
 			);
 			path = CoordinatorPracticeUITests;
+			sourceTree = "<group>";
+		};
+		C6D9532328E84ADC00AB95E9 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				C624B37A28E83EBD0041A24F /* Coordinator.swift */,
+				C624B37C28E83EE00041A24F /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		C6D9532428E84AED00AB95E9 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				C624B34E28E83E090041A24F /* ViewController.swift */,
+				C624B37E28E83FB00041A24F /* SecondViewController.swift */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
