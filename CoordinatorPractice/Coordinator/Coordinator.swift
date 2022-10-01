@@ -20,7 +20,8 @@ protocol Coordinator {
     func start()
 }
 
-
+// Coordinatorをインスタンス化するためのもの
+// VCとCoordinatorをつなぐためのもの
 protocol Coordinating {
     var coordinator: Coordinator? { get set }
 }
