@@ -17,7 +17,6 @@
 		C624B36E28E83E0B0041A24F /* CoordinatorPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C624B36D28E83E0B0041A24F /* CoordinatorPracticeUITestsLaunchTests.swift */; };
 		C624B37B28E83EBD0041A24F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C624B37A28E83EBD0041A24F /* Coordinator.swift */; };
 		C624B37D28E83EE00041A24F /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C624B37C28E83EE00041A24F /* MainCoordinator.swift */; };
-		C624B37F28E83FB00041A24F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C624B37E28E83FB00041A24F /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		C624B36D28E83E0B0041A24F /* CoordinatorPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C624B37A28E83EBD0041A24F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		C624B37C28E83EE00041A24F /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
-		C624B37E28E83FB00041A24F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				C624B34E28E83E090041A24F /* ViewController.swift */,
-				C624B37E28E83FB00041A24F /* SecondViewController.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -279,7 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C624B37F28E83FB00041A24F /* SecondViewController.swift in Sources */,
 				C624B37B28E83EBD0041A24F /* Coordinator.swift in Sources */,
 				C624B34F28E83E090041A24F /* ViewController.swift in Sources */,
 				C624B34B28E83E090041A24F /* AppDelegate.swift in Sources */,
